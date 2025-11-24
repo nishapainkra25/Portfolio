@@ -3,6 +3,7 @@ body{
     margin:0;
     padding:0;
     background-color:white;
+    width: 1000px;
 }
 
    
@@ -72,14 +73,14 @@ ul a{
 #Home h2{
     color:black;
     font-weight: bold;
-    font-size:30px;
+    font-size:20px;
     padding:10px;
 }
 
 #Home p{
     color:black;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
    
     padding:10px;
 }
@@ -325,6 +326,12 @@ button{
        padding:15px;
        
 }
+.form{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15;
+}
 
 @media (max-width: 375px) {
     #header {
@@ -462,4 +469,3 @@ button{
         font-size: 20px;
     }
 }
-
