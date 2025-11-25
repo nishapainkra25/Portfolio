@@ -334,7 +334,7 @@ button{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 7px;
 }
 
 @media (max-width: 375px) {
