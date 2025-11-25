@@ -293,9 +293,6 @@ button{
     display: flex;
     justify-content:center;
     align-items: center;
-    text-aling:center;
-    marging-left:auto;
-    margin-right:auto;
     gap:15px;
     margin-top: 8px;
 }
@@ -346,6 +343,16 @@ button{
         font-size: 20px;
         padding: 10px;
     }
+
+    .main img,.study img, .roal img, .log img{
+    height:60vh;
+    width:400px;
+    object-fit: cover;
+    display:flex;
+    flex-direction:column;
+        
+    }
+    
     #Home, #About, #Skills, #Eduction, #Contact {
         flex-direction: column;
         text-align: center;
@@ -382,6 +389,14 @@ button{
         padding: 15px;
         width: 480px;
     }
+    .main img,.study img, .roal img, .log img{
+    height:60vh;
+    width:400px;
+    object-fit: cover;
+    display:flex;
+    flex-direction:column;
+        
+    }
 
     .form input, .form textarea {
         font-size: 16px;
@@ -404,6 +419,14 @@ button{
 @media (max-width: 768px) {
     #header {
         font-size: 22px;
+    }
+    .main img,.study img, .roal img, .log img{
+    height:60vh;
+    width:400px;
+    object-fit: cover;
+    display:flex;
+    flex-direction:column;
+        
     }
     #header {
         flex-direction: column;
@@ -452,6 +475,14 @@ button{
         position: fixed;
         left:0;
         right:0;
+    }
+    .main img,.study img, .roal img, .log img{
+    height:60vh;
+    width:400px;
+    object-fit: cover;
+    display:flex;
+    flex-direction:column;
+        
     }
     #header ul {
         flex-direction: row;
